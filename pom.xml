@@ -8,7 +8,14 @@
 	<packaging>jar</packaging>
 
 	<name>Cucumber demo</name>
-	<url>http://maven.apache.org</url>
+	<description>Simple project do demonstrate features of cucumber and possibilities to integrate with other frameworks</description>
+	<url>https://github.com/juliusz-cwiakalski/demo-cucumber</url>
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -73,4 +80,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	<organization>
+		<url>http://jcw.pl</url>
+	</organization>
+	<developers>
+		<developer>
+			<name>Juliusz Ćwiąkalski</name>
+			<url>http://juliusz.cwiakalski.com</url>
+		</developer>
+	</developers>
 </project>

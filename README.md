@@ -9,7 +9,7 @@ or just import to your favourite IDE and run junits.
 
 ## Most interesting files in project
 
-| ** File **                                                          | ** Description **                                                                                                          |
+| File                                                                | Description                                                                                                                |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | src/test/resources/premium_users_discount.feature                   | Example feature description using Gherkin language                                                                         |
 | src/test/java/pl/jcw/demo/cucumber/FeaturesTest.java                | JUnit test that runs feature test                                                                                          |
