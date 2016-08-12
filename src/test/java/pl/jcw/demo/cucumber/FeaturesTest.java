@@ -12,5 +12,5 @@ import cucumber.api.junit.Cucumber;
 		glue = { "pl.jcw.demo.cucumber.steps" }, //
 		snippets = SnippetType.CAMELCASE)
 @ContextConfiguration(classes = { TestContextConfiguration.class })
-public class FeaturesTestRunner {
+public class FeaturesTest {
 }

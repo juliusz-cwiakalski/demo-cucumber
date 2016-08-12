@@ -4,8 +4,26 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope(scopeName="cucumber-glue")
+@Scope(scopeName = "cucumber-glue")
 public class OrderTestParameters {
-	public String profile;
-	public Double discount;
+
+	private Double discount;
+
+	private String profile;
+
+	public Double getDiscount() {
+		return discount;
+	}
+
+	public String getProfile() {
+		return profile;
+	}
+
+	public void setDiscount(Double discount) {
+		this.discount = discount;
+	}
+
+	public void setProfile(String profile) {
+		this.profile = profile;
+	}
 }

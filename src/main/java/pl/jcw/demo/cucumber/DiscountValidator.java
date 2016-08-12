@@ -29,31 +29,6 @@ public class DiscountValidator {
 			throw new IllegalArgumentException(profile + " user can have max " + discountLimit + " discount");
 		}
 
-		// validateDiscountNotGreater(discount, discountLimit, errorMsg);
-		//
-		// switch (profile) {
-		// case "Silver":
-		// validateDiscountNotGreater(discount, 5, "Silver user can have max 5
-		// discount");
-		// break;
-		// case "Gold":
-		// validateDiscountNotGreater(discount, 10, "Gold user can have max 10
-		// discount");
-		// break;
-		// case "Platinium":
-		// validateDiscountNotGreater(discount, 20, "Platinium user can have max
-		// 20 discount");
-		// break;
-		// default:
-		// validateDiscountNotGreater(discount, 0, "No discount allowed for
-		// profile '" + profile + "'");
-		// }
-
 	}
 
-	private void validateDiscountNotGreater(double current, double max, String errorMsg) {
-		if (current > max) {
-			throw new IllegalArgumentException(errorMsg);
-		}
-	}
 }
