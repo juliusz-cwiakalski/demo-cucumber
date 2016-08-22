@@ -7,7 +7,7 @@ You can also download zip file from repository webpage: https://github.com/juliu
 It's maven project - you can run tests from command line using standard `mvn test` 
 or just import to your favourite IDE and run junits.
 
-## Most interesting files in project
+## Most interesting files in project cucumber-spring-context
 
 | File                                                                | Description                                                                                                                |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
